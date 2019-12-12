@@ -1,0 +1,11 @@
+framework module Curve25519 {
+  umbrella header "Curve25519.h"
+
+  export *
+  module * { export * }
+}
+
+module Curve25519.Swift {
+    header "Curve25519-Swift.h"
+    requires objc
+}
